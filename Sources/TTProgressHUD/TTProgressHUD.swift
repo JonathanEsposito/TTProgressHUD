@@ -124,7 +124,7 @@ public struct TTProgressHUD: View {
                     
                     ZStack {
                         BlurEffect()
-                            .blurEffectStyle(.systemChromeMaterial)
+                            .blurEffectStyle(.systemUltraThinMaterial)
                         
                         VStack(spacing: 20) {
                             if config.type == .Loading {
