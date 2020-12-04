@@ -123,8 +123,7 @@ public struct TTProgressHUD: View {
                         .edgesIgnoringSafeArea(.all)
                     
                     ZStack {
-                        Color.white
-                            .blurEffect()
+                        BlurEffect()
                             .blurEffectStyle(.systemChromeMaterial)
                         
                         VStack(spacing: 20) {
